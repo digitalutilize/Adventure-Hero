@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+section{
+    margin: 100px 0;
+}
+
 .heading{
     font-size: 40px;
     font-weight: bolder;
@@ -145,4 +149,47 @@ nav{
 .find i{
     margin-right: 10px;
 }
+
+/* header banner related styles End */
+
+/* Popular Related Styles Start */
+
+.popular{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.popular-content, .popular-img{
+    width: 50%;
+}
+
+.popular-title{
+    margin-bottom: 25px;
+}
+
+.popular-content ul{
+    margin: 25px 0;
+}
+
+.popular-content ul li{
+    margin: 20px 0;
+    margin-left: 30px;
+}
+
+.popular-text, li{
+    width: 80%;
+}
+
+.popular-content button{
+    margin-top: 35px;
+}
+
+.popular-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Popular Related Styles End */
 
