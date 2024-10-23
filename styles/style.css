@@ -22,6 +22,7 @@
 .text-primary{
     font-size: 16px;
     color: #5A5A5D;
+    line-height: 25px;
 
 }
 
@@ -32,6 +33,7 @@
     background-color: #FF5400;
     padding: 15px 25px;
     border-radius: 8px;
+    border: none;
 }
 
 /* Nav & Header Related Styles */
@@ -88,5 +90,59 @@ nav{
 
 /* header banner related styles start */
 
+.banner{
+    
+    background-image: linear-gradient(#000000bd,#fff0), url('../Images/banner.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 100%;
+    padding: 105px 0;
+    border-radius: 15px;
+}
 
+.banner-content{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 64px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.banner-text{
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.search{
+    background-color: rgba(255, 255, 255, 0.322);
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.where, .when, .select{
+    background-color: white;
+    color: #5A5A5D;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+
+}
+
+.when i, .select i{
+    color: #5A5A5D;
+}
+
+.find i{
+    margin-right: 10px;
+}
 

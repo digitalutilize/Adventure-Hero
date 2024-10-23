@@ -9,6 +9,24 @@
     .menu{
         gap: 10px;
     }
+
+    /* banner styles */
+    .banner{
+        padding: 30px 0;
+    }
+    .banner-content{
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 40px;
+    }
+    .search{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .where, .when, .select{
+        width: 100%;
+    }
 }
 
 @media  screen and (min-width: 576.001px) and (max-width:800px) {
@@ -22,6 +40,24 @@
     .menu{
         gap: 20px;
     }
+
+    /* banner styles */
+    .banner{
+        padding: 30px 0;
+    }
+    .banner-content{
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 45px;
+    }
+    .search{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .where, .when, .select{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 800.001px) and (max-width: 1080px){
@@ -34,6 +70,24 @@
     }
     .menu{
         gap: 30px;
+    }
+
+    /* banner styles */
+    .banner{
+        padding: 30px 0;
+    }
+    .banner-content{
+        width: 90%;
+    }
+    .banner-title{
+        font-size: 60px;
+    }
+    .search{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .where, .when, .select{
+        width: 100%;
     }
 }
 
