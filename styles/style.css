@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+.body-container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.subheading{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.text-primary{
+    font-size: 16px;
+    color: #5A5A5D;
+
+}
+
+.btn-primary{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: #FF5400;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+
+/* Nav & Header Related Styles */
+
+/* Nav Menu related styles start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 ;
+}
+
+.logo{
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 15px;
+}
+
+.logo .color{
+    color: #FF5400;
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.menu li .h-color{ 
+    color: #FF5400;
+}
+
+.menu li a:hover{
+    color: #FF5400;
+    text-decoration: underline;
+}
+/* nav menu related styles end */
+
+/* header banner related styles start */
+
+
+
