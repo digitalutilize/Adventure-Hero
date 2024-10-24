@@ -5,12 +5,16 @@
     nav{
         flex-direction: column;
     }
-    .logo{
-        margin: 0 auto;
-        margin-bottom: 20px;
+    .logo h1{
+        font-size: 25px;
     }
-    .menu{
-        gap: 10px;
+    nav ul{
+        justify-content: center;
+        gap: 5%;
+        margin-top: 10px;
+    }
+    nav ul li a{
+        font-size: 16px;
     }
 
 /* banner Section */
@@ -47,19 +51,24 @@
 
 }
 
+
 @media  screen and (min-width: 576.001px) and (max-width:800px) {
+
+/* Nav Section */
+
     nav{
         flex-direction: column;
     }
-    .logo{
-        margin: 0 auto;
-        margin-bottom: 20px;
+    .logo h1{
+        font-size: 30px;
     }
-    .menu{
-        gap: 15px;
+    nav ul{
+        justify-content: center;
+        gap: 10%;
+        margin-top: 10px;
     }
 
-    /* banner styles */
+/* banner styles */
     .banner{
         padding: 30px 0;
     }
@@ -92,15 +101,16 @@
 }
 
 @media screen and (min-width: 800.001px) and (max-width: 1080px){
+
+/* Nav Section */
+
     nav{
         flex-direction: column;
     }
-    .logo{
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .menu{
-        gap: 30px;
+    nav ul{
+        justify-content: center;
+        gap: 10%;
+        margin-top: 10px;
     }
 
     /* banner styles */
@@ -144,3 +154,5 @@
     }
     
 }
+
+ 

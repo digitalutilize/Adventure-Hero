@@ -9,6 +9,10 @@
     margin: 0 auto;
 }
 
+.hide{
+    display: none;
+}
+
 section{
     margin: 100px 0;
 }
@@ -43,10 +47,10 @@ section{
 /* Nav & Header Related Styles */
 
 /* Nav Menu related styles start */
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 ;
+    padding: 30px 10px ;
 }
 
 .logo{
@@ -67,7 +71,6 @@ nav{
 
 .menu{
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 30px;
 }
@@ -89,6 +92,37 @@ nav{
 .menu li a:hover{
     color: #FF5400;
     text-decoration: underline;
+} */
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #424247;
+}
+nav ul li a:hover{
+    color: #FF5400;
 }
 /* nav menu related styles end */
 
