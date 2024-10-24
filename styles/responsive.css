@@ -87,6 +87,23 @@
         padding: 30px 20px;
     }
 
+/* Discount Section */
+
+    .discount-container{
+        padding-bottom: 0px;
+    }
+    .discount-title{
+        font-size: 25px;
+    }
+    .discount-text{
+        width: 90%;
+    }
+    .discount-content{
+        width: 100%;
+        margin: 150px 20px 20px 20px;
+        padding: 20px;
+    }
+
 }
 
 
@@ -171,6 +188,23 @@
         width: 90%;
         padding: 30px 20px;
     }
+
+/* Discount Section */
+
+    .discount-container{
+        padding-bottom: 0px;
+    }
+    .discount-title{
+        font-size: 30px;
+    }
+    .discount-text{
+        width: 90%;
+    }
+    .discount-content{
+        width: 100%;
+        margin: 150px 20px 20px 20px;
+        padding: 20px;
+    }
 }
 
 @media screen and (min-width: 800.001px) and (max-width: 1080px){
@@ -236,6 +270,23 @@
     }
     .ch-card-content{
         padding: 30px;
+    }
+
+/* Discount Section */
+
+    .discount-container{
+        padding-bottom: 0px;
+    }
+    .discount-title{
+        font-size: 35px;
+    }
+    .discount-text{
+        width: 80%;
+    }
+    .discount-content{
+        width: 100%;
+        margin: 150px 20px 20px 20px;
+        padding: 20px;
     }
 }
 

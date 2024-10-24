@@ -281,5 +281,78 @@ li {
 
 }
 
-
 /* Choose Section Related Styles End */
+
+/* Discount Related Styles Start */
+
+.discount-title{
+    text-align: center;
+}
+.discount-text{
+    text-align:center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.discount-container{
+    width: 100%;
+    padding: 50px 0;
+    background-image: url('../Images/discount\ 1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 25px;
+}
+.discount-2{
+    width: 100%;
+    padding: 50px 0;
+    background-image: url('../Images/discount\ 2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 25px;
+}
+.discount-1{
+    display: flex;
+    justify-content: flex-start;
+}
+.discount-2{
+    display: flex;
+    justify-content: flex-end;
+}
+.discount-content{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 50px;
+}
+.discount-content ul{
+    background-color: lightgreen;
+    display: flex;
+    margin-bottom: 25px;
+}
+.discount-content ul li{
+    font-size: 15px;
+    list-style: none;
+    color: #5A5A5D;
+    text-align: ce;
+}
+.discount-content ul li i{
+    color: #FF5400;
+    margin-right: 5px;
+}
+.discount-content-title{
+    
+}
+.discount-content-text{
+    margin: 15px 0;
+}
+.discount-price{
+    color: #FF5400;
+    margin-bottom: 25px;
+}
+.package-button{
+    text-align: center;
+}
+
+/* Discount Related Styles End */
