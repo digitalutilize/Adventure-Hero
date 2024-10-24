@@ -32,7 +32,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .where, .when, .select{
+    .search select{
         width: 100%;
     }
 
@@ -47,6 +47,9 @@
     }
     .popular-content, .popular-img, .popular-text{
         width: 100%;
+    }
+    .popular-title{
+        font-size: 25px;
     }
 
 }
@@ -82,7 +85,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .where, .when, .select{
+    .search select{
         width: 100%;
     }
 
@@ -127,7 +130,7 @@
         flex-direction: column;
         gap: 20px;
     }
-    .where, .when, .select{
+    .search select{
         width: 100%;
     }
 
