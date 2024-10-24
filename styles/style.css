@@ -1,40 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Mulish", sans-serif;
 }
 
-.body-container{
+.body-container {
     max-width: 85%;
     margin: 0 auto;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-section{
+section {
     margin: 100px 0;
 }
 
-.heading{
+.heading {
     font-size: 40px;
     font-weight: bolder;
 }
 
-.subheading{
+.subheading {
     font-size: 24px;
     font-weight: bolder;
 }
 
-.text-primary{
+.text-primary {
     font-size: 16px;
     color: #5A5A5D;
     line-height: 25px;
 
 }
 
-.btn-primary{
+.btn-primary {
     font-size: 20px;
     font-weight: bolder;
     color: white;
@@ -48,65 +48,76 @@ section{
 
 /* Nav Menu related styles start */
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 36px;
     font-weight: 800;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     gap: 30px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #424247;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: #FF5400;
 }
+
 /* nav menu related styles end */
 
 /* header banner related styles start */
 
-.banner{
-    
-    background-image: linear-gradient(#000000bd,#fff0), url('../Images/banner.png');
+.banner {
+
+    background-image: linear-gradient(#000000bd, #fff0), url('../Images/banner.png');
     background-repeat: no-repeat, no-repeat;
     background-size: 100% 100%;
     padding: 105px 0;
     border-radius: 15px;
 }
-.banner-content{
+
+.banner-content {
     width: 65%;
     margin: 0 auto;
     text-align: center;
 }
-.banner-title{
+
+.banner-title {
     font-size: 64px;
     color: white;
     margin-bottom: 24px;
 }
-.banner-text{
+
+.banner-text {
     color: white;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 48px;
 }
-.search{
+
+.search {
     background-color: rgba(255, 255, 255, 0.322);
     padding: 15px;
     border-radius: 8px;
@@ -114,20 +125,23 @@ nav ul li a:hover{
     justify-content: space-between;
     gap: 10px;
 }
-.search input{
-    padding:15px 10px;
+
+.search input {
+    padding: 15px 10px;
     border-radius: 8px;
     border: none;
     outline: none;
 }
-.search select{
+
+.search select {
     width: 180px;
     padding: 15px 10px;
     border-radius: 8px;
     background-color: white;
     color: #5A5A5D;
 }
-.find i{
+
+.find i {
     margin-right: 10px;
 }
 
@@ -135,42 +149,88 @@ nav ul li a:hover{
 
 /* Popular Related Styles Start */
 
-.popular{
+.popular {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.popular-content, .popular-img{
+.popular-content,
+.popular-img {
     width: 50%;
 }
 
-.popular-title{
+.popular-title {
     margin-bottom: 25px;
 }
 
-.popular-content ul{
+.popular-content ul {
     margin: 25px 0;
 }
 
-.popular-content ul li{
+.popular-content ul li {
     margin: 20px 0;
     margin-left: 30px;
 }
 
-.popular-text, li{
+.popular-text,
+li {
     width: 80%;
 }
 
-.popular-content button{
+.popular-content button {
     margin-top: 35px;
 }
 
-.popular-img img{
+.popular-img img {
     width: 100%;
     height: 100%;
 }
 
 /* Popular Related Styles End */
 
+/* Desination Related Styles Start */
+
+.destination {
+    text-align: center;
+}
+.destination-text{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.desti-col {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.col-img {
+    position: relative;
+}
+
+.col-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-img p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/* Desination Related Styles End */
