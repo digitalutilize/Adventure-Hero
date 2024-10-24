@@ -190,6 +190,41 @@ li {
 
 /* Popular Related Styles End */
 
+/* Tips and Tricks Related Style Start */
+
+.tips{
+    display: flex;
+    border-radius: 10px;
+}
+.tips-content{
+    width: 70%;
+    padding: 15px;
+}
+.tips-text{
+    width: 90%;
+    margin: 15px 0;
+}
+.tips-content ul{
+    
+}
+.tips-content ul li{
+    margin-left: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.tips-img{
+    width: 30%;
+}
+.tips-img img{
+    width: 100%;
+    height: 100%;
+}
+.tips-content button{
+    margin-top: 15px;
+}
+
+/* Tips and Tricks Related Style End */
+
 /* Desination Related Styles Start */
 
 .destination {
@@ -265,6 +300,7 @@ li {
     margin: 0 auto;
     padding: 30px 50px 30px;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(187, 187, 187);
 }
 .tag{
     background-color: #FEF6F6;

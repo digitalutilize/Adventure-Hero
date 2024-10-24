@@ -56,6 +56,18 @@
         margin-top: 25px;
     }
 
+/* Tips & Tricks Section */
+
+    .tips{
+        flex-direction: column;
+    }
+    .tips-content, .tips-img{
+        width: 100%;
+    }
+    .tips-title{
+        font-size: 25px;
+    }
+
 /* Destination Section */
 
     .destination-title{
@@ -213,6 +225,17 @@
         width: 100%;
     }
 
+/* Tips & Tricks Section */
+
+    .tips{
+        flex-direction: column;
+    }
+    .tips-content, .tips-img{
+        width: 100%;
+    }
+    .tips-title{
+        font-size: 30px;
+    }
 
 /* Destination Section */
     
@@ -352,6 +375,18 @@
     }
     .popular-content, .popular-img, .popular-text{
         width: 100%;
+    }
+
+/* Tips & Tricks Section */
+
+    .tips{
+        flex-direction: column;
+    }
+    .tips-content, .tips-img{
+        width: 100%;
+    }
+    .tips-title{
+        font-size: 35px;
     }
 
 /* Destination Section */
