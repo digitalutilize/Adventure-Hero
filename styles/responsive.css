@@ -69,6 +69,24 @@
         width: 100%;
     }
 
+/* Choose Section */
+
+    .choose-title{
+        font-size: 25px;
+    }
+    .choose-text{
+        width: 90%;
+    }
+    .choose-card{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .ch-card-content{
+        width: 90%;
+        padding: 30px 20px;
+    }
+
 }
 
 
@@ -135,6 +153,24 @@
         .col-img{
             width: 100%;
         }
+
+/* Choose Section */
+
+    .choose-title{
+        font-size: 30px;
+    }
+    .choose-text{
+        width: 90%;
+    }
+    .choose-card{
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    .ch-card-content{
+        width: 90%;
+        padding: 30px 20px;
+    }
 }
 
 @media screen and (min-width: 800.001px) and (max-width: 1080px){
@@ -188,6 +224,18 @@
     }
     .destination-text{
         width: 70%;
+    }
+
+/* Choose Section */
+
+    .choose-title{
+        font-size: 35px;
+    }
+    .choose-text{
+        width: 80%;
+    }
+    .ch-card-content{
+        padding: 30px;
     }
 }
 

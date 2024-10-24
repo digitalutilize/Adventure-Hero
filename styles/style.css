@@ -19,12 +19,12 @@ section {
 
 .heading {
     font-size: 40px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .subheading {
     font-size: 24px;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .text-primary {
@@ -232,5 +232,54 @@ li {
     font-weight: 800;
 }
 
-
 /* Desination Related Styles End */
+
+/* Choose Section Related Styles Start */
+
+.choose{
+
+}
+.choose-title{
+    text-align: center;
+}
+.choose-text{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.choose-card{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.hotel{
+    background-color: #FFFBF7;
+}
+.map{
+    background-color: #F4FDFF;
+}
+.ch-card-content{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 50px 30px;
+    border-radius: 10px;
+}
+.tag{
+    background-color: #FEF6F6;
+    width: 40%;
+}
+.ch-card-content img{
+
+}
+.ch-card-title{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.ch-card-text{
+
+}
+
+
+/* Choose Section Related Styles End */
