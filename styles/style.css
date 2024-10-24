@@ -63,7 +63,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10px;
+    padding: 30px 20px;
 }
 
 nav ul {
@@ -473,3 +473,34 @@ hr{
 }
 
 /* Newsletter Related Styles End */
+
+/* Footer Related Styles Start */
+
+footer{
+    background-color: #F3F3F3;
+    padding: 120px 0;
+}
+.footer-container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-logo{
+    justify-content: center;
+}
+.footer-logo h1{
+    font-size: 30px;
+}
+.footer-text{
+    margin: 20px 0;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-social i{
+    font-size: 20px;
+}
+
+/* Footer Related Styles End */

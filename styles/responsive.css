@@ -49,7 +49,11 @@
         width: 100%;
     }
     .popular-title{
-        font-size: 20px;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .popular-content button{
+        margin-top: 25px;
     }
 
 /* Destination Section */
@@ -59,6 +63,8 @@
     }
     .destination-text{
         width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .desti-col{
         flex-direction: column;
@@ -76,6 +82,8 @@
     }
     .choose-text{
         width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .choose-card{
         flex-direction: column;
@@ -97,6 +105,8 @@
     }
     .discount-text{
         width: 90%;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     .discount-content{
         width: 100%;
@@ -112,6 +122,9 @@
     }
     .perfect-title{
         font-size: 25px;
+    }
+    .perfect-text{
+        margin: 15px 0;
     }
     .perfect-content, .perfect-img{
         width: 100%;
@@ -133,6 +146,18 @@
     }
     .news-img button h1, .news-img button p{
         font-size: 20px;
+    }
+
+/* Footer Section */
+
+    footer{
+        padding: 50px 0;
+    }
+    .footer-container{
+        width: 80%;
+    }
+    .footer-logo h1{
+        font-size: 25px;
     }
 
 }
@@ -181,9 +206,13 @@
         flex-direction: column;
         gap: 30px;
     }
+    .popular-title{
+        margin-bottom: 15px;
+    }
     .popular-content, .popular-img, .popular-text{
         width: 100%;
     }
+
 
 /* Destination Section */
     
@@ -266,6 +295,18 @@
     }
     .news-img button h1, .news-img button p{
         font-size: 20px;
+    }
+
+/* Footer Section */
+
+    footer{
+        padding: 50px 0;
+    }
+    .footer-container{
+        width: 80%;
+    }
+    .footer-logo h1{
+        font-size: 30px;
     }
 }
 
@@ -380,6 +421,15 @@
     }
     .news-img button h1, .news-img button p{
         font-size: 20px;
+    }
+
+/* Footer Section */
+
+    footer{
+        padding: 80px 0;
+    }
+    .footer-container{
+        width: 60%;
     }
 }
 
